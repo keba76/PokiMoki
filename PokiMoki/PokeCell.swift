@@ -26,5 +26,4 @@ class PokeCell: UICollectionViewCell {
         self.tambImg.image = UIImage(named: "\(self.pokemon.pokeID)")
     }
     
-    
 }
