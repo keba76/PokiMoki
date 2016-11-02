@@ -1,0 +1,6 @@
+framework module Pods_PokiMoki {
+  umbrella header "Pods-PokiMoki-umbrella.h"
+
+  export *
+  module * { export * }
+}

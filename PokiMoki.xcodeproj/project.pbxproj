@@ -14,15 +14,19 @@
 		5FB10E9C1DC7A2BC00755003 /* pokemon2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB10E9B1DC7A2BC00755003 /* pokemon2.ttf */; };
 		5FB10E9E1DC7B24100755003 /* 113.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FB10E9D1DC7B24100755003 /* 113.mp3 */; };
 		5FB10EA21DC85A7D00755003 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB10EA11DC85A7D00755003 /* PokemonDetailVC.swift */; };
+		5FB10EA41DC8F37500755003 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB10EA31DC8F37500755003 /* Constants.swift */; };
 		5FC476AB1DC75CA400FAF078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC476AA1DC75CA400FAF078 /* AppDelegate.swift */; };
 		5FC476AD1DC75CA400FAF078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC476AC1DC75CA400FAF078 /* ViewController.swift */; };
 		5FC476B01DC75CA400FAF078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC476AE1DC75CA400FAF078 /* Main.storyboard */; };
 		5FC476B21DC75CA400FAF078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC476B11DC75CA400FAF078 /* Assets.xcassets */; };
 		5FC476B51DC75CA400FAF078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC476B31DC75CA400FAF078 /* LaunchScreen.storyboard */; };
 		5FC476BD1DC75F1C00FAF078 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5FC476BC1DC75F1C00FAF078 /* pokemon.csv */; };
+		C5B8DF2B9C53BC6EB6C157B5 /* Pods_PokiMoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF9A05538C7C0EA2735C58 /* Pods_PokiMoki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108E5A48E33542617B7F221C /* Pods-PokiMoki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiMoki.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokiMoki/Pods-PokiMoki.release.xcconfig"; sourceTree = "<group>"; };
+		5DDF9A05538C7C0EA2735C58 /* Pods_PokiMoki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokiMoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB10E921DC7623100755003 /* Pokeman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokeman.swift; sourceTree = "<group>"; };
 		5FB10E951DC7706700755003 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		5FB10E971DC7875300755003 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
@@ -30,6 +34,7 @@
 		5FB10E9B1DC7A2BC00755003 /* pokemon2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon2.ttf; sourceTree = "<group>"; };
 		5FB10E9D1DC7B24100755003 /* 113.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 113.mp3; sourceTree = "<group>"; };
 		5FB10EA11DC85A7D00755003 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		5FB10EA31DC8F37500755003 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5FC476A71DC75CA400FAF078 /* PokiMoki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokiMoki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC476AA1DC75CA400FAF078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC476AC1DC75CA400FAF078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		5FC476B41DC75CA400FAF078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC476B61DC75CA400FAF078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC476BC1DC75F1C00FAF078 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		EFF9E8219FDFD8878B1753EB /* Pods-PokiMoki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokiMoki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokiMoki/Pods-PokiMoki.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +51,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B8DF2B9C53BC6EB6C157B5 /* Pods_PokiMoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D8F46B550522D3BD18B445F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF9A05538C7C0EA2735C58 /* Pods_PokiMoki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FB10E911DC7621000755003 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +93,7 @@
 				5FC476BC1DC75F1C00FAF078 /* pokemon.csv */,
 				5FC476B31DC75CA400FAF078 /* LaunchScreen.storyboard */,
 				5FC476B61DC75CA400FAF078 /* Info.plist */,
+				5FB10EA31DC8F37500755003 /* Constants.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -96,6 +112,8 @@
 			children = (
 				5FC476A91DC75CA400FAF078 /* PokiMoki */,
 				5FC476A81DC75CA400FAF078 /* Products */,
+				99941C9516B1B184D31BDAC2 /* Pods */,
+				5D8F46B550522D3BD18B445F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +138,15 @@
 			path = PokiMoki;
 			sourceTree = "<group>";
 		};
+		99941C9516B1B184D31BDAC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9E8219FDFD8878B1753EB /* Pods-PokiMoki.debug.xcconfig */,
+				108E5A48E33542617B7F221C /* Pods-PokiMoki.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC476B91DC75CA400FAF078 /* Build configuration list for PBXNativeTarget "PokiMoki" */;
 			buildPhases = (
+				4F130E7D0B53E1A69C49B8C4 /* [CP] Check Pods Manifest.lock */,
 				5FC476A31DC75CA400FAF078 /* Sources */,
 				5FC476A41DC75CA400FAF078 /* Frameworks */,
 				5FC476A51DC75CA400FAF078 /* Resources */,
+				072053B24FAB392D120117B8 /* [CP] Embed Pods Frameworks */,
+				B8015DF00B95B6261CB02A0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +223,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		072053B24FAB392D120117B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiMoki/Pods-PokiMoki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F130E7D0B53E1A69C49B8C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8015DF00B95B6261CB02A0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokiMoki/Pods-PokiMoki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FC476A31DC75CA400FAF078 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,6 +280,7 @@
 				5FB10E931DC7623100755003 /* Pokeman.swift in Sources */,
 				5FC476AD1DC75CA400FAF078 /* ViewController.swift in Sources */,
 				5FB10EA21DC85A7D00755003 /* PokemonDetailVC.swift in Sources */,
+				5FB10EA41DC8F37500755003 /* Constants.swift in Sources */,
 				5FC476AB1DC75CA400FAF078 /* AppDelegate.swift in Sources */,
 				5FB10E981DC7875300755003 /* csv.swift in Sources */,
 			);
@@ -247,6 +326,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -296,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -322,7 +403,9 @@
 		};
 		5FC476BA1DC75CA400FAF078 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF9E8219FDFD8878B1753EB /* Pods-PokiMoki.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJ3RW859P3;
 				INFOPLIST_FILE = PokiMoki/Info.plist;
@@ -335,7 +418,9 @@
 		};
 		5FC476BB1DC75CA400FAF078 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108E5A48E33542617B7F221C /* Pods-PokiMoki.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJ3RW859P3;
 				INFOPLIST_FILE = PokiMoki/Info.plist;
